@@ -8,7 +8,7 @@ Config server is where all configurable parameters of microservices are written 
 
 1. Java 1.8
 
-2. ### Eclipse IDE
+2. Eclipse IDE
 
 3. Spring Cloud
 
@@ -96,7 +96,6 @@ Config server is where all configurable parameters of microservices are written 
 
    `spring.cloud.config.server.git.uri=${USERPROFILE}\\SpringBoot-Workspace\\config-server-repo`
 
-    
 
    `#Disable security of the Management endpoint`
 
@@ -122,6 +121,9 @@ Now lets understand those properties
    Also, check if any runtime change in the property file is reflected by the server without restart – Do any change in the value of any environment’s property and check-in that file and then run that specific environment’s endpoint, and verify that changed value should be reflected immediately without restarting the server – that is the magic of Spring Config Server.
 
    To do the git check in, after doing the change and save the file by any text editor, run the command `git add .` and `git commit -m "test"` from config-server-repo directory in the desktop.
+
+
+
 
 
 
